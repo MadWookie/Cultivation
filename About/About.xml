@@ -9,26 +9,26 @@
 New Floor Types:
 
 Tilled Soil 
-    Has %110 fertility.
+    Has %115 fertility.
     Requires the "Simple Cultivation" research.
-    Costs 1 Fertilizer to construct.
+    Costs 2 Compost to construct.
 
 Cultivated Soil 
     Has %150 fertility.
     Requires the "Cultivation" research.
-    Costs 5 Fertilizer to construct.
+    Costs 1 Fertilizer to construct.
 	
 New Items:
 
 Compost
-    Requires the "Composting" research.
+    Requires the "Simple Cultivation" research.
 	Costs .25 nutrition (~5 meat) per compost.
-	Can be crafted in batches of 10.
+	Can be crafted in batches of 5.
     Craft at crafting spot or butcher table.
 
 Fertilizer
-    Requires the "Composting" research.
-    Costs 1 compost per fertilizer
+    Requires the "Cultivation" research.
+    Costs 5 compost per fertilizer
 	Can be crafted in batches of 5.
     Craft at a Butcher Table.
 
