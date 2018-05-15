@@ -128,7 +128,7 @@
                         <li>SC_Compost</li>
                     </thingDefs>
                 </filter>
-				<count>5</count>
+				<count>25</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -137,7 +137,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <SC_Fertilizer>25</SC_Fertilizer>
+            <SC_Fertilizer>5</SC_Fertilizer>
         </products>
 		<researchPrerequisite>Cultivation</researchPrerequisite>
 		<workAmount>1000</workAmount>
