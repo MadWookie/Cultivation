@@ -2,7 +2,7 @@
 <Defs>
 
     <RecipeDef>
-        <defName>MakeCompost</defName>
+        <defName>SC_MakeCompost</defName>
         <label>make compost</label>
         <description>Gather materials to compost.</description>
         <jobString>Gathering materials to compost.</jobString>
@@ -42,7 +42,7 @@
     </RecipeDef>
 
     <RecipeDef>
-        <defName>BatchMakeCompost</defName>
+        <defName>SC_BatchMakeCompost</defName>
         <label>make batch of 5 compost</label>
         <description>Gather materials to compost.</description>
         <jobString>Gathering materials to compost.</jobString>
@@ -82,7 +82,7 @@
     </RecipeDef>
 	
 	<RecipeDef>
-        <defName>MakeFertilizer</defName>
+        <defName>SC_MakeFertilizer</defName>
         <label>make fertilizer</label>
         <description>Gather compost to make fertilizer.</description>
         <jobString>Gathering compost to make fertilizer.</jobString>
@@ -116,7 +116,7 @@
     </RecipeDef>
 	
 	<RecipeDef>
-        <defName>BatchMakeFertilizer</defName>
+        <defName>SC_BatchMakeFertilizer</defName>
         <label>make batch of 5 fertilizer</label>
         <description>Gather compost to make fertilizer.</description>
         <jobString>Gathering compost to make fertilizer.</jobString>
