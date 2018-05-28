@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingCategoryDef>
+    <defName>SC_Farming</defName>
+    <label>farming</label>
+    <parent>ResourcesRaw</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+	<iconPath>Fertilizer</iconPath>
+  </ThingCategoryDef>
+  
+</Defs>

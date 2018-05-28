@@ -3,7 +3,7 @@
 
   <ThingDef>
     <defName>SC_Compost</defName>
-    <thingClass>Thing</thingClass>
+    <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
@@ -18,9 +18,11 @@
     <rotatable>false</rotatable>
     <stackLimit>75</stackLimit>
     <thingCategories>
-      <li>Manufactured</li>
+      <li>SC_Farming</li>
     </thingCategories>
     <useHitPoints>true</useHitPoints>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
     <statBases>
       <MarketValue>1</MarketValue>
       <Mass>3.0</Mass>
@@ -29,15 +31,11 @@
       <Beauty>-10</Beauty>
       <Cleanliness>-5</Cleanliness>
     </statBases>
-    <techLevel>Medieval</techLevel>
-    <researchPrerequisites>
-      <li>SimpleCultivation</li>
-    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef>
     <defName>SC_Fertilizer</defName>
-    <thingClass>Thing</thingClass>
+    <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
@@ -52,19 +50,17 @@
     <rotatable>false</rotatable>
     <stackLimit>10</stackLimit>
     <thingCategories>
-      <li>Manufactured</li>
+      <li>SC_Farming</li>
     </thingCategories>
     <useHitPoints>true</useHitPoints>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
     <statBases>
       <MarketValue>12</MarketValue>
       <Mass>5.0</Mass>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>4.0</Flammability>
     </statBases>
-    <techLevel>Industrial</techLevel>
-    <researchPrerequisites>
-      <li>Cultivation</li>
-    </researchPrerequisites>
   </ThingDef>
 
 </Defs>
