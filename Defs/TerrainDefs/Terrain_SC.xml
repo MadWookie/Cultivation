@@ -14,15 +14,25 @@
 			<li>Diggable</li>
 		</affordances>
 		<avoidWander>true</avoidWander>
-		<terrainFilthDef>FilthDirt</terrainFilthDef>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<takeFootprints>True</takeFootprints>
 		<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SC_TerrainBase">
 		<defName>GT_SoilTilled</defName>
 		<label>tilled soil</label>
-		<description>Crops grow %115 faster than on un-fertilized soil.</description>
+		<description>Crops grow %115 faster than on un-tilled soil.</description>
 		<texturePath>SoilTilled</texturePath>
 		<costList>
    			<SC_Compost>2</SC_Compost>

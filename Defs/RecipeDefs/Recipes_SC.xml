@@ -86,7 +86,7 @@
         <label>make fertilizer</label>
         <description>Gather compost to make fertilizer.</description>
         <jobString>Gathering compost to make fertilizer.</jobString>
-		<workSpeedStat>DrugProductionSpeed</workSpeedStat>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
         <ingredients>
             <li>
                 <filter>
@@ -120,7 +120,7 @@
         <label>make batch of 5 fertilizer</label>
         <description>Gather compost to make fertilizer.</description>
         <jobString>Gathering compost to make fertilizer.</jobString>
-		<workSpeedStat>DrugProductionSpeed</workSpeedStat>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
         <ingredients>
             <li>
                 <filter>
