@@ -357,7 +357,7 @@ namespace AdvancedCultivation
         public int Capacity = 25;
         private static readonly Vector2 BarSize = new Vector2(0.55f, 0.1f);
         private static readonly Color BarZeroProgressColor = new Color(0.4f, 0.27f, 0.22f);
-        private static readonly Color BarFermentedColor = new Color(1.0f, 0.8f, 0.3f);
+        private static readonly Color BarFermentedColor = new Color(0.46f, 0.70f, 0.13f);
         private static readonly Material BarUnfilledMat = SolidColorMaterials.SimpleSolidColorMaterial(
             new Color(0.3f, 0.3f, 0.3f), false);
 
@@ -600,21 +600,18 @@ namespace AdvancedCultivation
                 base.Map.mapDrawer.MapMeshDirty(base.Position, MapMeshFlag.Things);
             }
             base.Draw();
-            Vector3 drawPos = this.DrawPos;
-            drawPos.y += 0.1f;
-            drawPos.z -= 0.4f;
+            GenDraw.FillableBarRequest r = default(GenDraw.FillableBarRequest);
+            r.center = this.DrawPos + new Vector3(0, 0.1f, -0.4f);
+            r.size = Building_AC_CompostBin.BarSize;
+            r.fillPercent = this.compostCount / this.Capacity;
+            r.filledMat = this.BarFilledMat;
+            r.unfilledMat = Building_AC_CompostBin.BarUnfilledMat;
+            r.margin = 0.1f;
+            r.rotation = this.Rotation;
+            Log.Message($"{this.Empty}");
             if (!this.Empty)
             {
-                GenDraw.DrawFillableBar(new GenDraw.FillableBarRequest
-                {
-                    center = drawPos,
-                    size = Building_AC_CompostBin.BarSize,
-                    fillPercent = (float)this.compostCount / this.Capacity,
-                    filledMat = this.BarFilledMat,
-                    unfilledMat = Building_AC_CompostBin.BarUnfilledMat,
-                    margin = 0.1f,
-                    rotation = Rot4.North
-                });
+                GenDraw.DrawFillableBar(r);
             }
         }
     }
