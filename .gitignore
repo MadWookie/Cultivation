@@ -11,4 +11,6 @@ TemporaryGeneratedFile*
 *.svg
 Assemblies/Advanced_Cultivation.pdb
 !Assemblies/Advanced_Cultivation.dll
+!"1.1 1.2/Assemblies/Advanced_Cultivation.dll"
+!"1.3/Assemblies/Advanced_Cultivation.dll"
 build.force
