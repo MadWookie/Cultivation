@@ -1,0 +1,3 @@
+C:\Users\thegu\Documents\Rimworld Mods\Advanced_Cultivation\Advanced_Cultivation\obj\Debug\Advanced Cultivation.csprojResolveAssemblyReference.cache
+C:\Users\thegu\Documents\Rimworld Mods\Assemblies\Simple_Cultivation.dll
+C:\Users\thegu\Documents\Rimworld Mods\Advanced_Cultivation\Advanced_Cultivation\obj\Debug\Simple_Cultivation.dll
