@@ -123,7 +123,7 @@ namespace AdvancedCultivation
         public static readonly TerrainExtension defaultValues = new TerrainExtension();
         public TerrainDef tillsTo = TerrainDefOf.AC_SoilTilled;
         public TerrainDef tilledFrom = TerrainDefOf.Soil;
-        public float tillWorkAmount = 400;
+        public float tillWorkAmount = 300;
     }
 
     public class JobDriver_TillCell : JobDriver
